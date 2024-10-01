@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/katex": "^0.16.7",
     "vite": "^5.4.4"
+  },
+  "dependencies": {
+    "katex": "^0.16.7"
   }
 }

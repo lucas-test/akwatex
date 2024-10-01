@@ -1,0 +1,10 @@
+.editor {
+    height: 40px;
+    width: 50%;
+}
+
+.latex-code {
+    display: inline-block;
+    background-color: orange;
+}
+
