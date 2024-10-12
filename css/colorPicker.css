@@ -1,0 +1,23 @@
+.color-picker-container {
+    position: relative;
+    /* left: -300px; */
+    /* top: 0; */
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px); /* Adjust this value based on your layout */
+}
+
+.color-square {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
